@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly Again - Gamer Tourism</title>
+    <!-- /* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, h2, ul, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Encabezado */
+header {
+    background-color: #000000;
+    color: #0099FF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0099FF;
+}
+
+/* Barra de Reservas */
+section form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #0099FF;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Viajes Combinados */
+section:nth-child(3) {
+    margin: 20px 0;
+}
+
+/* Chatbot */
+section:nth-child(4) {
+    margin: 20px 0;
+}
+
+/* Contacto y Redes Sociales */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section {
+    width: 45%;
+}
+
+/* Media Query para hacer el diseño responsive */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+ -->
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div>
+            <img src="ruta_del_logo.png" alt="Fly Again Logo" width="100" height="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#vuelo-hotel">Vuelo + Hotel</a></li>
+                <li><a href="#vuelos">Vuelos</a></li>
+                <li><a href="#metaverso">Metaverso</a></li>
+                <li><a href="#alquiler-coche">Alquiler de Coche</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Barra de Reservas -->
+    <section>
+        <h2>Reserva tu Viaje</h2>
+        <form action="#" method="post">
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+
+            <label for="num-pasajeros">Pasajeros:</label>
+            <input type="number" id="num-pasajeros" name="num-pasajeros" min="1">
+
+            <label for="origen">Origen:</label>
+            <input type="text" id="origen" name="origen">
+
+            <label for="destino">Destino:</label>
+            <input type="text" id="destino" name="destino">
+
+            <input type="submit" value="Reservar">
+        </form>
+    </section>
+
+    <!-- Viajes Combinados -->
+    <section>
+        <h2>Viajes Combinados</h2>
+        <!-- Aquí puedes agregar la información sobre los viajes combinados -->
+    </section>
+
+    <!-- Chatbot -->
+    <section>
+        <h2>Chat en línea</h2>
+        <!-- Aquí puedes incorporar un chatbot -->
+    </section>
+
+    <!-- Contacto y Redes Sociales -->
+    <footer>
+        <section>
+            <h2>Contacto</h2>
+            <p>Teléfono: [Número de Teléfono]</p>
+        </section>
+        <section>
+            <h2>Redes Sociales</h2>
+            <!-- Agrega aquí tus iconos o enlaces a las redes sociales -->
+        </section>
+    </footer>
+
+    <!-- Scripts (JS) -->
+    <!-- Agrega aquí tus enlaces a scripts si es necesario -->
+
+</body>
+
+</html>
